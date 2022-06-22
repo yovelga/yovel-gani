@@ -2,52 +2,52 @@
     background-color: rgb(142, 160, 194);
 }
 
-#but_tkanon{
+#but_tkanon {
     display: grid;
     place-items: center;
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 100px;
-padding: 10px 10px;
- block-size: 50px; 
- background-color: #1b9;
+    padding: 10px 10px;
+    block-size: 50px;
+    background-color: #1b9;
 }
 
-#pageHome{
+#pageHome {
 
     display: grid;
-text-align: center;
+    text-align: center;
 }
 
-#contPage{
+#contPage {
     display: grid;
     text-align: center;
 
 }
 
 
-*{
+* {
     padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
 }
- 
-nav{
+
+nav {
     background: #0a8a66;
     height: 80px;
     width: 100%;
-    background-image:url("../static/Book-removebg-preview.PNG") ; 
+    background-image: url("../static/Book-removebg-preview.PNG");
     background-size: 50px;
-    background-repeat: no-repeat;   
+    background-repeat: no-repeat;
     background-position-x: 0px;
-   
+
 
 }
 
-label.logo{
+label.logo {
     color: white;
     font-size: 30px;
     line-height: 80px;
@@ -56,50 +56,51 @@ label.logo{
     margin-top: 100px;
 }
 
-nav ul{
+nav ul {
     float: right;
     margin-right: 10px;
 
 }
 
-nav ul li{
+nav ul li {
     display: inline-block;
     line-height: 80px;
     margin: 0 20px;
 }
 
-nav ul li a{
+nav ul li a {
     color: aliceblue;
-   font-size: 17px 13px ;
- 
-  text-transform: uppercase;
+    font-size: 17px 13px;
+
+    text-transform: uppercase;
 }
 
 
 
-a.active,a:hover{
-   background: #1b9; 
-   transition: .5s;
-   line-height: 80px;
-   margin-right: 5px;
+a.active,
+a:hover {
+    background: #1b9;
+    transition: .5s;
+    line-height: 80px;
+    margin-right: 5px;
 }
 
 
-#title { 
+#title {
     display: grid;
-         font-family: gan ;
-       height: auto; 
-        /* border:5px solid rgb(5, 109, 184);  */
-     text-align: center;
-       color: rgb(0, 0, 0);
-       font-size: 20px;
-       padding: 10px; 
-   
+    font-family: gan;
+    height: auto;
+    /* border:5px solid rgb(5, 109, 184);  */
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    padding: 10px;
+
 }
 
 
 @font-face {
-    font-family: gan ;
+    font-family: gan;
     src: url("..//static/gan/gan/ganclm_bold-webfont.ttf");
 }
 
@@ -107,16 +108,15 @@ a.active,a:hover{
 body {
     font-family: montserrat;
     background-image: url("..//static/background.jpg");
-    } 
-
-#text{
-
-     text-align: center ;
-     color: rgb(0, 0, 0)
-
-    
 }
-#link{
+
+#text {
+
+    text-align: center;
+    color: rgb(0, 0, 0)
+}
+
+#link {
     text-align: left;
     font-size: 20px;
     padding: 20px;
@@ -124,31 +124,41 @@ body {
 
 
 
-img{
+img {
 
-    
+
     width: 200px;
     height: 300px;
 
 }
-#an_book1{
+
+#an_book1 {
     animation: blink1 4s ease-in-out 0.5s 5;
-    
+
 }
-#an_book2{
+
+#an_book2 {
     animation: blink2 4s ease-in-out 0.5s 5;
-    
+
 }
 
 @keyframes blink1 {
-    0%{opacity: 0;}
-   33%{opacity: 0.5;}
-   66%{opacity: 1;}
+    0% {
+        opacity: 0;
+    }
+
+    33% {
+        opacity: 0.5;
+    }
+
+    66% {
+        opacity: 1;
+    }
 }
 
 
 
-.anomation{
+.anomation {
     display: inline-grid;
     display: block;
     object-position: center;
@@ -156,7 +166,8 @@ img{
     width: 200px;
     height: 300px;
 }
-#container{
+
+#container {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -165,9 +176,17 @@ img{
 }
 
 @keyframes blink2 {
-    0%{opacity: 1;}
-   33%{opacity: 0.5;}
-   66%{opacity: 0;}
+    0% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0.5;
+    }
+
+    66% {
+        opacity: 0;
+    }
 }
 
 
@@ -176,41 +195,43 @@ img{
 
 
 
-@media (max-width: 858px){
+@media (max-width: 858px) {
 
-    #title { 
-   
+    #title {
+
         display: grid;
-      font-size: 15px; 
-}
-img{
+        font-size: 15px;
+    }
 
-    width: 100px;
-    height: 150px;
+    img {
 
-}
-    label.logo{
+        width: 100px;
+        height: 150px;
+
+    }
+
+    label.logo {
         font-size: 30px;
         padding-left: 50px;
     }
- 
-  nav ul li a{
-      font-size: 14px;
-  }
 
-  #contPage{
-    display: grid;
-    text-align: center;  
-    font-size: 10px;
-}
-#pageHome{
-
-    display: grid;
-    text-align: center;
-    font-size: 10px;
+    nav ul li a {
+        font-size: 14px;
     }
 
-    
+    #contPage {
+        display: grid;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #pageHome {
+
+        display: grid;
+        text-align: center;
+        font-size: 10px;
+    }
+
+
 
 }
-
